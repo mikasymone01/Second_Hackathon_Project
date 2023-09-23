@@ -1,0 +1,173 @@
+html * {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#jobInput,
+#locationInput {
+  font-size: 30px;
+  border: 0;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #fffffe;
+}
+input:focus {
+  outline: 0;
+}
+.searchBar {
+  display: flex;
+  justify-content: left;
+}
+.initialSearchBar {
+  display: flex;
+  justify-content: center;
+  margin-left: 2%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  /* top: 30%;
+  transform: translateX(70%); */
+}
+.line {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 3px;
+  color: #b8c1ec;
+  background-color: #b8c1ec;
+}
+body {
+  background-color: #232946;
+  height: max-content;
+}
+.subText {
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+  margin-left: 0%;
+}
+
+.my-card {
+  width: 25rem;
+  height: 20rem;
+  margin: 30px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #fffffe;
+}
+.title {
+  display: flex;
+  color: #fffffe;
+  justify-content: center;
+  font-size: 80px;
+  align-self: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #232946;
+}
+a:hover,
+a:visited,
+a:active {
+  color: #232946;
+}
+.my-card:hover {
+  transform: scale(1.1);
+}
+.my-card-title:hover {
+  height: 90px;
+}
+.my-card-subtitle,
+.my-card-text,
+.my-card-company {
+  margin-left: 10px;
+}
+
+.my-card-title,
+.my-card-subtitle,
+.my-card-text,
+.my-card-company {
+  color: #232946;
+}
+::placeholder {
+  color: #232946;
+}
+.my-card-subtitle {
+  color: #eebbc3;
+}
+
+.icon {
+  height: 240px;
+  width: 260px;
+  color: #fffffe;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+.my-card-title {
+  height: 50px;
+  width: 100%;
+  font-weight: 1000;
+  color: #232946;
+  background-color: #b8c1ec;
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+#submitButton {
+  font-size: 20px;
+  border: 0px;
+  padding: 2px;
+  width: 100px;
+  margin-top: 5px;
+  height: 50px;
+  color: #232946;
+  border-radius: 30px;
+  background-color: #eebbc3;
+}
+#submitButton:hover {
+  background-color: rgba(231, 115, 150, 0.85);
+}
+
+#container1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-self: flex-start;
+  width: 100%;
+}
+
+#recommendedJobs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-self: start;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.rec-card {
+  width: 17rem;
+  height: 12rem;
+  margin: 30px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #fffffe;
+}
+
+.rec-card-title {
+  height: 65px;
+  width: 270px;
+  font-weight: 800;
+  color: #232946;
+  background-color: #b8c1ec;
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}

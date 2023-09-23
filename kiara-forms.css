@@ -1,0 +1,84 @@
+html * {
+  font-family: Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #232946;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  position: relative;
+  color: #fffffe;
+  font-size: 2rem;
+  font-weight: 1000;
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #eebbc3;
+  padding: 25px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.container .form {
+  margin-top: 60px;
+}
+.input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-box input {
+  position: relative;
+  height: 55px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.input-box2 {
+  display: flex;
+  column-gap: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .input-box2 {
+    flex-wrap: wrap;
+  }
+}
+
+select {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fffffe;
+  padding: 16px;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-items: center;
+}
+
+button {
+  background: #232946;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fffffe;
+  width: 100%;
+  top: 100%;
+  padding: 16px;
+  font-size: 15px;
+  margin-top: 30px;
+  transition: all 0.2 ease;
+}
+
+button:hover {
+  background-color: #eebbc3;
+}
